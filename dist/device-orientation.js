@@ -97,7 +97,7 @@ function DeviceOrientation () {
             orientation = "portrait";
         }
         self.value = orientation
-        self.onChange.apply(null, orientation)
+        self.onChange.call(null, orientation)
       };
     } else {
       updateOrientation = function () {
