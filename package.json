@@ -1,0 +1,27 @@
+{
+  "name": "device-orientation",
+  "version": "1.0.0",
+  "description": "monitor mobile devices orientation",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyixiang9/device-orientation.git"
+  },
+  "keywords": [
+    "orientation",
+    "mobile",
+    "mobile"
+  ],
+  "author": "wu.yixiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuyixiang9/device-orientation/issues"
+  },
+  "homepage": "https://github.com/wuyixiang9/device-orientation#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
